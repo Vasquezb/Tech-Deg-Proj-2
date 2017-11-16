@@ -1,0 +1,77 @@
+
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+.menu-title {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+
+.main-header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile-image,
+.about-text {
+  width: 50%;
+  display: inline-block;
+}
+.profile-image {
+  float: right;
+}
+.about-text {
+  float: left;
+}
+}
+.name {
+  float: left;
+}
+.main-nav {
+  float: right;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+  }
+
+.about-text {
+  display: block;
+  margin-top: 50px;
+
+}
+
+}
+
+@media (min-width: 768px) {
+
+
+  .main-nav li {
+    display: inline-block;
+    float: left;
+
+
+    padding-left: 1em;
+  }
+
+
+
+.secondary-nav li {
+  display: inline-block;
+  width: 50%;
+}
+
+  }
+
+
+}
+
+
+
+
+}
