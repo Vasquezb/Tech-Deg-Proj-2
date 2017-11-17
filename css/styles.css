@@ -1,4 +1,7 @@
-
+.body {
+  width: 70%;
+  margin: 0 auto;
+}
 
 #logo {
   text-align: center;
@@ -7,6 +10,7 @@
 
 .menu-title {
   text-align: center;
+
 }
 
 .portfolio{
@@ -18,6 +22,14 @@
 
 
 @media (min-width: 1024px) {
+
+.menu-title: {
+  margin-top: 100px;
+  padding-top: 100px;
+}
+.secondary-nav: {
+
+}
 
 .main-header {
   width: 90%;
